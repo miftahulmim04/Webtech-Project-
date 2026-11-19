@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ClubSphere — Admin Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="login-card">
+    <img class="logo" src="images/aesc-logo.png" alt="AESC logo">
+    <h1>Admin Login</h1>
+
+    <form class="login-form" action="dashboard.html" method="get">
+      <div class="field">
+        <label for="username">Username</label>
+        <input id="username" name="username" type="text" autocomplete="username">
+      </div>
+
+      <div class="field">
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password" autocomplete="current-password">
+      </div>
+
+      <nav class="links" aria-label="Login options">
+        <a href="#">Reset Password</a>
+        <a href="register.html">Register</a>
+      </nav>
+
+      <button type="submit">Log in</button>
+    </form>
+  </main>
+
+  <footer class="brand-name">ClubSphere</footer>
+</body>
+</html>
